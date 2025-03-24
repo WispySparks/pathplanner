@@ -128,7 +128,7 @@ build.dependsOn outputJar
 
 libraryBuild.dependsOn build
 
-def releasesRepoUrl = "$buildDir/repos/releases"
+def releasesRepoUrl = "/repos/releases"
 
 publishing {
     repositories {

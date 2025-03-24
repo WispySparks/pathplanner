@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.pathplanner.lib</groupId>
+  <artifactId>PathplannerLib-cpp</artifactId>
+  <versioning>
+    <latest>2025.2.6-2508-SNAPSHOT</latest>
+    <versions>
+      <version>2025.2.6-2508-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250324212446</lastUpdated>
+  </versioning>
+</metadata>
