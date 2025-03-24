@@ -72,7 +72,7 @@ public class AutoBuilder {
       DriverStation.reportError(
           "Auto builder has already been configured. This is likely in error.", true);
     }
-
+    DriverStation.reportWarning("Running a development version of PathPlanner!", false);
     AutoBuilder.pathFollowingCommandBuilder =
         (path) ->
             new FollowPathCommand(
