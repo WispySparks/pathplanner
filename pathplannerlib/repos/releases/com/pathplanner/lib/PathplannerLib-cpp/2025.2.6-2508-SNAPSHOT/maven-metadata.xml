@@ -3,52 +3,52 @@
   <groupId>com.pathplanner.lib</groupId>
   <artifactId>PathplannerLib-cpp</artifactId>
   <versioning>
-    <lastUpdated>20250324211809</lastUpdated>
+    <lastUpdated>20250324220300</lastUpdated>
     <snapshot>
-      <timestamp>20250324.211809</timestamp>
+      <timestamp>20250324.220300</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>linuxathenastaticdebug</classifier>
-        <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>linuxathenadebug</classifier>
-        <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>headers</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>source</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>linuxathenastaticdebug</classifier>
+        <extension>zip</extension>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>linuxathenadebug</classifier>
+        <extension>zip</extension>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>linuxathena</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>linuxathenastatic</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250324.211809-1</value>
-        <updated>20250324211809</updated>
+        <value>2025.2.6-2508-20250324.220300-1</value>
+        <updated>20250324220300</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
