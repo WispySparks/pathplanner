@@ -24,7 +24,7 @@ jobs:
         run: chmod +x pathplannerlib/gradlew
 
       - name: Run Gradle publish
-        run: cd pathplannerlib && ./gradlew publish -PreleasePath=/repos/releases
+        run: cd pathplannerlib && ./gradlew publish -PreleasePath=/repos/releases --stacktrace --info --debug
 
       - name: Commit and push changes
         run: |
