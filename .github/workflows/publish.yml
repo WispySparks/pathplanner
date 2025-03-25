@@ -1,0 +1,36 @@
+name: Publish and Push
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Grant execute permissions to Gradle
+        run: chmod +x pathplannerlib/gradlew
+
+      - name: Run Gradle publish
+        run: cd pathplannerlib && ./gradlew publish
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add pathplannerlib/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated publish commit"
+            git push
+          fi
