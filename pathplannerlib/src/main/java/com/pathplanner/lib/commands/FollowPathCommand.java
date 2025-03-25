@@ -39,6 +39,9 @@ public class FollowPathCommand extends Command {
   private PathPlannerPath path;
   private PathPlannerTrajectory trajectory;
 
+  public static double additionalTimeSeconds = 1;
+  public static double allowableTranslationErrorMeters = 0.1;
+
   /**
    * Construct a base path following command
    *
@@ -179,7 +182,9 @@ public class FollowPathCommand extends Command {
   @Override
   public boolean isFinished() {
     double totalTime = trajectory.getTotalTimeSeconds();
-    return timer.hasElapsed(totalTime) || !Double.isFinite(totalTime);
+    return poseSupplier.get().getTranslation().getDistance(trajectory.getEndState().pose.getTranslation()) < allowableTranslationErrorMeters
+    || timer.hasElapsed(totalTime + additionalTimeSeconds) 
+    || !Double.isFinite(totalTime);
   }
 
   @Override
