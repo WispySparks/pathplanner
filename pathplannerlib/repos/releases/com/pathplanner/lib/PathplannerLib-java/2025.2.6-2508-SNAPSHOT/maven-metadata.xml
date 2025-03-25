@@ -3,33 +3,33 @@
   <groupId>com.pathplanner.lib</groupId>
   <artifactId>PathplannerLib-java</artifactId>
   <versioning>
-    <lastUpdated>20250325034841</lastUpdated>
+    <lastUpdated>20250325035839</lastUpdated>
     <snapshot>
-      <timestamp>20250325.034841</timestamp>
+      <timestamp>20250325.035839</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -3,52 +3,52 @@
   <groupId>com.pathplanner.lib</groupId>
   <artifactId>PathplannerLib-cpp</artifactId>
   <versioning>
-    <lastUpdated>20250325034841</lastUpdated>
+    <lastUpdated>20250325035839</lastUpdated>
     <snapshot>
-      <timestamp>20250325.034841</timestamp>
+      <timestamp>20250325.035839</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>source</classifier>
+        <classifier>linuxx86-64</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>linuxx86-64</classifier>
+        <classifier>source</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>headers</classifier>
-        <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>linuxx86-64staticdebug</classifier>
-        <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>linuxx86-64debug</classifier>
-        <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>linuxx86-64static</classifier>
         <extension>zip</extension>
-        <value>2025.2.6-2508-20250325.034841-1</value>
-        <updated>20250325034841</updated>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>linuxx86-64debug</classifier>
+        <extension>zip</extension>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>linuxx86-64staticdebug</classifier>
+        <extension>zip</extension>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>headers</classifier>
+        <extension>zip</extension>
+        <value>2025.2.6-2508-20250325.035839-1</value>
+        <updated>20250325035839</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
