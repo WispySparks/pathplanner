@@ -14,14 +14,14 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: "temurin"
+          java-version: "17"
 
       - name: Grant execute permissions to Gradle
         run: chmod +x pathplannerlib/gradlew
 
       - name: Run Gradle publish
-        run: cd pathplannerlib && ./gradlew publish
+        run: cd pathplannerlib && ./gradlew publish -PreleasePath=/repos/releases
 
       - name: Commit and push changes
         run: |
