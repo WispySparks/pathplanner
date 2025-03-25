@@ -21,10 +21,12 @@ jobs:
           java-version: "17"
 
       - name: Grant execute permissions to Gradle
-        run: chmod +x pathplannerlib/gradlew
+        run: chmod +x gradlew
+        working-directory: ./pathplannerlib
 
       - name: Run Gradle publish
-        run: cd pathplannerlib && ./gradlew publish -PreleasePath=/repos/releases --stacktrace --info --debug
+        run: sudo ./gradlew publish -PreleasePath=/repos/releases --info --debug
+        working-directory: ./pathplannerlib
 
       - name: Commit and push changes
         run: |
