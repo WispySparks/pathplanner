@@ -25,7 +25,7 @@ jobs:
         working-directory: ./pathplannerlib
 
       - name: Run Gradle publish
-        run: sudo ./gradlew publish -PreleasePath=./repos/releases --info --debug
+        run: sudo ./gradlew publish -PreleasePath=./repos/releases
         working-directory: ./pathplannerlib
 
       - name: Commit and push changes
